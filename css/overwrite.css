@@ -30,7 +30,12 @@
   .tm-logo {
     width: 370px;
     height: 370px;
-    background: url(../img/logo-bg2.png) center no-repeat;
+    background: url() center no-repeat;
+    background-color: gainsboro;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #059033;
+    border-radius: 50%;
     background-size: cover;
     position: absolute;
     right: -13%;
