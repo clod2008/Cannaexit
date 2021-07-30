@@ -1,0 +1,28 @@
+.tm-logo img{
+    min-width: 100%;
+}
+
+.colors {
+    color: #059033;
+
+    color: #93cb56;
+
+    color: #7baa47;
+
+    color: #355a20;
+
+
+}
+
+.tm-welcome-left {
+    background-color: #CEC0AE;
+    padding: 1em;
+    max-width: 925px;
+    width: 84%;
+    position: relative;
+    background-image: url(../img/cannabis-plant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+  }
