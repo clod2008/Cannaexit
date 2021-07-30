@@ -26,3 +26,31 @@
     background-position: bottom;
 
   }
+
+  .tm-logo {
+    width: 370px;
+    height: 370px;
+    background: url(../img/logo-bg2.png) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: -13%;
+    top: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+  #logoHome{
+      
+    transition: all 0.5s linear;
+      
+    }
+    
+    
+    #logoHome:hover{
+        
+       transform: scale(1.2);
+
+
+    }
