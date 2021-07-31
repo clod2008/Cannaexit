@@ -569,5 +569,27 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
   .tm-logo {
     margin-top: -100vw;
     transform: scale(0.8);
+    margin-right: 3em;
   }
+  .tm-welcome-left {width: 100% !important;}
+}
+
+@media (max-width: 375px) {
+  .tm-section-3-left { padding: 70px 50px 80px 50px; }
+  .tm-logo {
+    margin-top: -115vw;
+    transform: scale(0.8);
+    margin-right: 2em;
+  }
+  .tm-welcome-left {width: 100% !important;}
+}
+
+@media (max-width: 360px) {
+  .tm-section-3-left { padding: 70px 50px 80px 50px; }
+  .tm-logo {
+    margin-top: -115vw;
+    transform: scale(0.8);
+    margin-right: 1em;
+  }
+  .tm-welcome-left {width: 100% !important;}
 }
