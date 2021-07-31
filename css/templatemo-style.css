@@ -520,11 +520,21 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
     right: -110px;
     bottom: -80px;
   }
+
+  .tm-logo {
+    margin-top: -45vw;
+    transform: scale(0.9);
+  }
+
 }
 
 @media (max-width: 767px) {
   .tm-section-3-left { width: 100%; }
   .tm-contact-form { padding-top: 30px; }
+  .tm-logo {
+    margin-top: -55vw;
+    transform: scale(0.8);
+  }
 }
 
 @media (max-width: 480px) {
@@ -532,7 +542,10 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
     padding: 0 15px 40px;
     margin-left: 20px;
     font-size: 4em;
+    
   }
+
+  
 
   .tm-welcome-left { padding: 100px 40px 80px; }
 
@@ -544,8 +557,17 @@ figure.effect-lexi figcaption::before, figure.effect-lexi p {
   .tm-section-3-left { padding: 70px 80px 80px 80px; }
   .tm-gallery-container { max-width: 350px; }
   .tm-contact-left-inner { width: 70%;}
+
+  .tm-logo {
+    margin-top: -100vw;
+    transform: scale(0.8);
+  }
 }
 
 @media (max-width: 420px) {
   .tm-section-3-left { padding: 70px 50px 80px 50px; }
+  .tm-logo {
+    margin-top: -100vw;
+    transform: scale(0.8);
+  }
 }
